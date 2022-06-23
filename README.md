@@ -9,7 +9,9 @@
 
 
 <h3>Link</h3>
-URL: [https://dani-michely-curriculo-online.netlify.app](https://dani-michely-curriculo-online.netlify.app/)
+https://dani-michely-curriculo-online.netlify.app
+
+
 
 
 
