@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 950px;
+    height: 1300px;
+    margin: 70px auto;
+    display: flex;
+    -webkit-box-shadow: 1px 3px 17px -4px #000000; 
+    box-shadow: 1px 3px 17px -4px #000000;
+}
+
+/* LEFT */
+.left {
+    width: 40%;
+    height: 100%;
+    background-color: #494E5F;
+    color: #FBE7D4;
+
+}
+.header {
+    margin: auto;
+    width: 70%;
+    border-bottom: 2px solid #FBE7D4;
+}
+
+.header img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    color: #FBE7D4;
+    font-size: 2.5rem;
+    margin: 30px auto;
+}
+.header h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 60px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+}
+
+.left-content {
+    width: 75%;
+    margin: auto;  
+}
+
+.left-content h3{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.left-content p {
+    font-size: .9rem;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.left-content h4 {
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: .9rem;
+    margin-bottom: 5px;
+}
+.left-content h4 a {
+    color: #FFFFFF;
+}
+
+
+
+/* RIGHT */
+.right-boxes {
+    margin: 70px;
+    color: #484E5F;
+}
+
+.right-boxes .title {
+    background-color: #FBE7D4;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.right-boxes .title h2 {
+    font-size: 1.1rem;
+    margin-left: 10px;
+}
+
+.school h3 {
+    margin: 5px auto;
+}
+.school h4 {
+    font-size: .9rem;
+}
+.school p {
+    font-size: .9rem;
+    margin: 10px auto 30px auto;
+}
+
+.currently h4{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.hobbies p {
+    font-size: .9rem;
+}
+
+
+
+
+/* PDF */
+.pdf-download {
+    background-color: #484E5F;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.pdf-download:hover{
+    background-color: #FFFFFF;
+    border: 2px solid #484E5F;
+}
+
+.pdf-download a {
+    color: #FFFFFF;
+    font-size: .9rem;
+     padding: 12px 30px;
+     display: block;
+}
+.pdf-download a:hover {
+    color: #484E5F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right {
+    width: 60%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
